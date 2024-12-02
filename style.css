@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #00ffcc;
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff33cc;
+}
+
+fieldset {
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 10px;
+    color: #ffcc00;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #00ffcc;
+}
+
+label {
+    font-size: 1.2em;
+    color: #39FF14;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+input[type="color"],
+select {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ff33cc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #00ffcc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff33cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    box-shadow: 0 0 10px rgba(255, 51, 204, 0.5);
+}
+
+button:hover {
+    background-color: #ff66ff;
+}
+
+.checkbox-section label {
+    margin: 10px 0;
+    color: #00ffcc;
+}
+
+.gender-selector {
+    background-color: rgba(240, 240, 240, 0.9);
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.gender-selector label {
+    color: #000000;
+    margin: 10px 0;
+    display: block;
+}
+
+.gender-selector input[type="radio"] {
+    accent-color: #FF5733;
+}
+
+select {
+    width: 95%; 
+    max-width: 600px; 
+    padding: 10px;
+    border: 2px solid #ff33cc;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #FFFFFF;
+    background-color: #1A1A1A;
+    appearance: none;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+select:hover {
+    background-color: #333333;
+    border-color: #39FF14;
+}
+
+select option {
+    padding: 10px;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+
+.select-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
